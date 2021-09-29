@@ -1,0 +1,20 @@
+.imagenLinkExterno{
+    width: 198px;
+    height: 50px;
+}
+
+
+.extern-links-section{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+width: 900px;
+height: 60px;
+margin-right: auto;
+margin-right: auto;
+
+
+}
+
+
+

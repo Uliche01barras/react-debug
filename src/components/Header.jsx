@@ -16,6 +16,7 @@ const redesSociales = [
   },
 ];
 
+
 const enlacesARedesSociales = redesSociales.map(
   ({ textoAlternativo, srcDelIcono }) => (
     <li className="li-redsocial">
@@ -47,7 +48,7 @@ const Header = () => {
             />
           </a>
           contenidos <b style={{ marginLeft: "8px" }}>argentinos</b>
-          <ul id="list-redsocial">enlaceARedesSociales</ul>
+          <ul id="list-redsocial">{enlacesARedesSociales}</ul>
         </div>
 
         <ul>
@@ -65,6 +66,7 @@ const Header = () => {
             <a className="a-cinear-ext" href="/">
               cine.ar <span style={{ color: "#206930" }}>estrenos</span>
             </a>
+            
           </li>
         </ul>
       </nav>
