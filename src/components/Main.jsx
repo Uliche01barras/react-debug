@@ -23,8 +23,7 @@ const Main = () => {
         </video>
       </section>
       <section className="extern-links-section">
-        links a sitios externos
-        <ul>
+        <ul  className="MainInferior">
           <li>
             <a href="/">
               <img className="img-extern-link-section" src="http://cine.ar/img/tv.cine.ar.svg" alt="" />

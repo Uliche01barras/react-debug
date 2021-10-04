@@ -66,7 +66,7 @@ const Header = () => {
             <a className="a-cinear-ext" href="/">
               cine.ar <span style={{ color: "#206930" }}>estrenos</span>
             </a>
-            
+
           </li>
         </ul>
       </nav>
